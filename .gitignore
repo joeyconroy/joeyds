@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+storybook-static/
+*.tsbuildinfo
+
+# Test output
+coverage/
+test-results/
+playwright-report/
+
+# Chromatic
+build-storybook.log
+chromatic.log
+chromatic-diagnostics.json
+
+# Tool caches
+.eslintcache
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# PLACEHOLDER for ds token output
+
+# OS
+.DS_Store
