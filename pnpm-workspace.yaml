@@ -1,0 +1,6 @@
+saveExact: true
+engineStrict: true
+peerDependencyRules:
+  allowedVersions:
+    "eslint-plugin-jsx-a11y>eslint": "10"
+strictPeerDependencies: true

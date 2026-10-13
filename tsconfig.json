@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    // File layout
+    "rootDir": "./src",
+
+    // Environment
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": [],
+    "jsx": "react-jsx",
+
+    // Checker only; tsdown emits
+    "noEmit": true,
+    "declaration": true,
+    "declarationMap": true,
+    "isolatedDeclarations": true,
+    "sourceMap": true,
+
+    // Strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+
+    // Style
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
