@@ -4,3 +4,4 @@ peerDependencyRules:
   allowedVersions:
     "eslint-plugin-jsx-a11y>eslint": "10"
 strictPeerDependencies: true
+pmOnFail: ignore # keeps pnpm-lock.yaml a single YAML document; GitHub's dependency graph and Dependabot read only the first one (pnpm 12). See the backlog issue on removing this.
