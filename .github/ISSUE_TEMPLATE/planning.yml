@@ -1,6 +1,5 @@
 name: Planning issue
 description: Maintainer use — a planned unit of work from the build plan. For problems, use the Bug report or Accessibility issue form.
-title: ""
 body:
   - type: textarea
     id: why
