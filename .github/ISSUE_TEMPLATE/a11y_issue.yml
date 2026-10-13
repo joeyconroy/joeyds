@@ -1,0 +1,63 @@
+name: Accessibility issue
+description: A barrier for keyboard, screen-reader, low-vision, motion-sensitive, or other users.
+title: "[A11y]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accessibility problems are bugs with a person attached. Say who is affected and how you found it; the rest can be rough.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component or area affected
+      options:
+        - Button
+        - TextField
+        - Dialog
+        - Tokens or theming
+        - Documentation or Storybook
+        - Other (say which below)
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What is wrong, and for whom
+      description: The barrier and the people it affects — keyboard-only, screen reader, low vision, motion sensitivity, cognitive load, other.
+    validations:
+      required: true
+  - type: dropdown
+    id: assistive-tech
+    attributes:
+      label: Assistive technology or input used
+      options:
+        - Keyboard only
+        - NVDA
+        - JAWS
+        - VoiceOver (macOS or iOS)
+        - TalkBack
+        - Switch or other alternative input
+        - Browser zoom or magnifier
+        - None — found by inspection or automated check
+        - Other (say which below)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: input
+    id: wcag
+    attributes:
+      label: Related WCAG success criterion, if known
+      placeholder: e.g. 2.4.7 Focus Visible
+    validations:
+      required: false
