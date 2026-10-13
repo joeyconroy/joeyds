@@ -1,0 +1,37 @@
+name: Planning issue
+description: Maintainer use — a planned unit of work from the build plan. For problems, use the Bug report or Accessibility issue form.
+title: ""
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: One or two sentences on what this unblocks or what it is for.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What this issue delivers, as a list a reader can check off.
+      placeholder: |
+        - …
+        - …
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What is deliberately left for another issue, and which one.
+      placeholder: |
+        - … (next issue)
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: The observable condition that closes this issue.
+    validations:
+      required: true
