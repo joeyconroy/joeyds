@@ -20,5 +20,5 @@ Closes #
 
 - [ ] Accessibility checked: keyboard path, focus visible, axe clean on the affected stories
 - [ ] Visual changes reviewed in Storybook, both themes
-- [ ] ADR written and included in this branch (`docs/decisions/NNNN-…`)
+- [ ] ADRs this change depends on are on `main` or included in this branch (`docs/decisions/NNNN-…`)
 - [ ] Self-reviewed cold: whole diff read as a stranger before marking ready
