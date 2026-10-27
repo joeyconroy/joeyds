@@ -1,6 +1,7 @@
 ---
 status: "{proposed | accepted | rejected | deprecated | superseded}"
 date: { YYYY-MM-DD when the decision was last updated }
+category: "{architecture | operations}"
 supersedes: [] # ADR numbers this record replaces, e.g. [0003]
 superseded-by: [] # ADR numbers that replace this record; set only when status is superseded
 ---
