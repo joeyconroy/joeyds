@@ -1,6 +1,7 @@
 ---
 status: "{proposed | accepted | rejected | deprecated | superseded}"
 date: { YYYY-MM-DD when the decision was last updated }
+category: "{architecture | operations}"
 supersedes: [] # ADR numbers this record replaces, e.g. [0003]
 superseded-by: [] # ADR numbers that replace this record; set only when status is superseded
 ---
@@ -10,8 +11,6 @@ superseded-by: [] # ADR numbers that replace this record; set only when status i
 ## Context and Problem Statement
 
 {Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question. Consider adding links to collaboration boards or issue management systems. Make the scope of the decision explicit, for instance, by calling out or pointing at structural architecture elements (components, connectors, ...).}
-
-<!-- This is an optional element. Feel free to remove. -->
 
 ## Decision Drivers
 
@@ -30,29 +29,22 @@ superseded-by: [] # ADR numbers that replace this record; set only when status i
 
 Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-<!-- This is an optional element. Feel free to remove. -->
-
 ### Consequences
 
 - Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
 - Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
 - … <!-- numbers of consequences can vary -->
 
-<!-- This is an optional element. Feel free to remove. -->
-
 ### Confirmation
 
-{Describe how the implementation / compliance of the ADR can/will be confirmed. Is there any automated or manual fitness function? If so, list it and explain how it is applied. Is the chosen design and its implementation in line with the decision? Note that although we classify this element as optional, it is included in many ADRs.}
-
-<!-- This is an optional element. Feel free to remove. -->
+{Describe how the implementation / compliance of the ADR can/will be confirmed. Is there any automated or manual fitness function? If so, list it and explain how it is applied. Is the chosen design and its implementation in line with the decision?}
 
 ## Pros and Cons of the Options
 
 ### {title of option 1}
 
-<!-- This is an optional element. Feel free to remove. -->
-
 {example | description | pointer to more information | …}
+<!-- description line not required if option is self-evident -->
 
 - Good, because {argument a}
 - Good, because {argument b}
@@ -66,13 +58,14 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 ### {title of other option}
 
 {example | description | pointer to more information | …}
+<!-- description line not required if option is self-evident -->
 
 - Good, because {argument a}
 - Neutral, because {argument b}
 - Bad, because {argument c}
 - …
 
-<!-- This is an optional element. Feel free to remove. -->
+<!-- More Information is an optional element. Feel free to remove. -->
 
 ## More Information
 
